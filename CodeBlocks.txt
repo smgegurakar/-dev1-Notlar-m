@@ -1,0 +1,123 @@
+﻿using System;
+
+
+namespace code_blocks
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int sayi = 0;
+            do
+            {
+                sayi++;
+                if (sayi == 7) continue;
+                Console.WriteLine(sayi);
+                
+
+            } while (sayi < 10);
+
+            Console.ReadLine();
+
+
+        }
+    }
+}
+
+     /* {
+            string[] siparisNo =
+                {
+                "ABC124",
+                    "CDFG4567",
+                    "DSGDFGDS456"
+                    };
+            for (int i = siparisNo.Length-1; i >= 0; i--)
+            {
+                Console.WriteLine(siparisNo[i]);
+
+            }
+            Console.ReadLine();
+        }
+    } for loop */
+
+
+
+
+/*{
+        for (int a = 10; a > 0;  a--)
+
+
+        { Console.WriteLine(a);
+        }
+        Console.ReadLine(); 
+
+        }
+    } for loop */
+
+/*int golsayisi = 0;
+  string takimSeviyesi = "";
+  Random sayi = new Random();
+  golsayisi = sayi.Next(0, 6);
+
+
+  switch (golsayisi)
+  {
+      case 1:
+          takimSeviyesi = "Vasat";
+          break;
+      case 2:
+          takimSeviyesi = "Vasatın bi tık üstü";
+          break;
+      case 3:
+          takimSeviyesi = "Çok İyi";
+          break;
+      case 4:
+          takimSeviyesi = "Muhteşem";
+          break;
+      case 5:
+          takimSeviyesi = "Koymuşsunuz";
+          break;
+      default:
+          takimSeviyesi = "Kötü";
+          break;
+  }
+  Console.WriteLine(takimSeviyesi);
+  Console.ReadLine();
+
+} 
+
+} switch case */
+
+/*int sayi = 0;
+sayi = Toplama.Toplam(a:50);
+Console.WriteLine(sayi);
+Console.ReadLine();
+
+
+
+
+}
+
+
+
+}
+}
+
+namespace code_blocks.Topla
+{
+class Toplama
+{
+
+public static int Toplam(int a)
+{
+
+int b = 10;
+return a + b;
+}
+
+}
+} code blocks*/
+
+
+
+
